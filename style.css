@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+  background-color: gold;
+  color: black;
+  height:100px;
+
+
+  
+}
+
+li a {
+  color:black;
+  text-decoration: inline;
+
+}
+
+li {
+display: inline;
+padding: 20px
+
+}
+
+nav{
+   padding-top: 20px;
+  float: right;
+ 
+}
+
+#header1{
+
+  font-size: 20px;
+  padding-left: 0px;
+  padding-top: 20px;
+ 
+  
+}
+
+div{
+  display: inline-block;
+}
+
+
+
+main{
+   background-color:greenyellow;
+  text-align: left aligned;
+  margin-top: 20px
+}
+
+section{
+
+  padding: 20px
+}
+
+section p{
+padding: 40px
+padding-top: 20px
+}
+
+
+footer{
+  text-align: center;
+  color:black;
+  background-color:gold  ;
+  height: 20px;
+  font-size: 10px;
+  padding-top: 5px
+}
