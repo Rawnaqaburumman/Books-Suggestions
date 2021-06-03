@@ -16,3 +16,18 @@ else if
 (kind=="Romance"){
 
 document.write('<div>' + 'Romance Books: The Proposal-Vision In White-Beautiful Disaster' + "</div>")}
+
+var  num  = prompt('How many books do you plan to read this monthm , please chooce more than 3 books ?? ')
+
+var i=0;
+ while(num < 3 ){
+   
+ var  num  = prompt('How many books do you plan to read this monthm , please chooce more than 3 books ?? ')
+ }
+   document.write("<h3>"+ "Yes its Graet! " + "</h3>")
+
+   for(var i =0;i< num;i = i + 1){
+     document.write("<h3>"+ "you will light stars" +"</h3>")
+   document.write("<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQZ3CNnm30B56sMp2cL0SeaK-77acSEdHZeg&usqp=CAU' >")
+   }
+ 
