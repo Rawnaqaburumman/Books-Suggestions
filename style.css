@@ -8,7 +8,7 @@
 header{
   background-color: gold;
   color: black;
-  height:100px;
+  height: 80px;
 
 
   
@@ -16,13 +16,13 @@ header{
 
 li a {
   color:black;
-  text-decoration: inline;
+  text-decoration: none;
 
 }
 
 li {
 display: inline;
-padding: 20px
+padding: 40px
 
 }
 

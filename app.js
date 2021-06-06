@@ -1,4 +1,5 @@
-alert('Welcome to Our page, we will help you to find graet books please press Ok  (: ') 
+
+function wlecoming(){alert('Welcome to Our page, we will help you to find graet books please press Ok  (: ') 
 var  kind = prompt('Now write your favorite kind of books from these kinds (Classics,Comic,Fantasy,Romance) And look to the suggesions at the bottom of the page please.')
 if (kind=="Classics"){
 
@@ -16,8 +17,13 @@ else if
 (kind=="Romance"){
 
 document.write('<div>' + 'Romance Books: The Proposal-Vision In White-Beautiful Disaster' + "</div>")}
+}
 
-var  num  = prompt('How many books do you plan to read this monthm , please chooce more than 3 books ?? ')
+function printImg(){
+
+var  num  = prompt('How many books do you plan to read this month, please chooce more than 3 books ?? ')
+
+
 
 var i=0;
  while(num < 3 ){
@@ -30,4 +36,7 @@ var i=0;
      document.write("<h3>"+ "you will light stars" +"</h3>")
    document.write("<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQZ3CNnm30B56sMp2cL0SeaK-77acSEdHZeg&usqp=CAU' >")
    }
- 
+}
+wlecoming();
+
+printImg();
